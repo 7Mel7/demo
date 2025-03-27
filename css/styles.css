@@ -6806,6 +6806,16 @@ textarea.form-control-lg {
   z-index: 1030;
 }
 
+@media (max-width: 480px){
+  .fixed-top {
+    position: relative;
+    top: auto;
+    left: auto;
+    width: 100%;
+    z-index: 1030;
+}
+}
+
 .fixed-bottom {
   position: fixed;
   right: 0;
@@ -10859,6 +10869,15 @@ p {
   margin-top: 0;
   margin-bottom: 1rem;
 }
+
+@media (max-width: 480px){
+  .page-section h2.section-heading, .page-section .section-heading.h2 {
+    font-size: 1.5rem;
+    margin-top: 0;
+    margin-bottom: 1rem;
+  }
+}
+
 .page-section h3.section-subheading, .page-section .section-subheading.h3 {
   font-size: 1rem;
   font-weight: 400;
@@ -10999,6 +11018,18 @@ header.masthead .masthead-heading {
     margin-bottom: 4rem;
   }
 }
+
+@media (max-width: 480px){
+  header.masthead .masthead-heading {
+    font-size: 2.25rem;
+    font-weight: 600;
+    line-height: 3.25rem;
+    margin-bottom: 6rem;
+    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+}
+
+
 #portfolio .portfolio-item {
   max-width: 26rem;
   margin-left: auto;
