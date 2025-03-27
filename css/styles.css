@@ -11359,3 +11359,53 @@ section#contact form#contactForm :-ms-input-placeholder {
   font-size: 0.9rem;
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
+
+
+.div-whatsapp{
+  text-align: center;
+}
+
+
+    .whatsapp-link {
+        display: inline-block;
+        padding: 12px 20px;
+        background-color: #25d366; /* Color verde típico de WhatsApp */
+        color: white;
+        font-size: 16px;
+        font-weight: bold;
+        border-radius: 5px;
+        text-decoration: none;
+        text-align: center;
+        transition: background-color 0.3s ease;
+    }
+
+    .whatsapp-link:hover {
+        background-color: #128c7e; /* Un verde más oscuro para hover */
+    }
+
+    .whatsapp-link:active {
+        background-color: #075e54; /* Color cuando se hace clic */
+    }
+
+    @media (max-width: 480px){
+      .whatsapp-link {
+        display: inline-block;
+        padding: 8px 16px;
+        background-color: #25d366; /* Color verde típico de WhatsApp */
+        color: white;
+        font-size: 8px;
+        font-weight: bold;
+        border-radius: 2.5px;
+        text-decoration: none;
+        text-align: center;
+        transition: background-color 0.3s ease;
+    }
+
+    .whatsapp-link:hover {
+        background-color: #128c7e; /* Un verde más oscuro para hover */
+    }
+
+    .whatsapp-link:active {
+        background-color: #075e54; /* Color cuando se hace clic */
+    }
+    }
